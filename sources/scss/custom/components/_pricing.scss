@@ -1,0 +1,41 @@
+/** @section Pricing */
+
+.pricing {
+	max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	@include media-breakpoint-up(sm) {
+		text-align: left;
+	}
+}
+
+.pricing-title {
+	line-height: 28px;
+}
+
+.pricing-price {
+	color: $primary;
+	display: inline-flex;
+	align-items: flex-start;
+	margin-top: 15px;
+
+	> * {
+		color: inherit;
+	}
+}
+
+.pricing-currency {
+	margin-top: .3em;
+}
+
+.pricing-value {
+	margin-top: 0;
+	margin-left: .15em;
+}
+
+.pricing-postfix {
+	margin-top: .2em;
+	margin-left: .3em;
+}

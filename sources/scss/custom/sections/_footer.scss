@@ -1,0 +1,45 @@
+/** @section Footer */
+
+.footer {
+	padding: 60px 0;
+
+	@media (min-width: 768px) {
+	    padding: 100px 0;
+	}
+
+	a {
+		@include link( inherit, $primary )
+	}
+
+	.link-tel a {
+		@include link( $primary, $white );
+	}
+
+	* + .link-tel {
+		margin-top: 26px;
+	}
+
+	.link-tel + h6 {
+		margin-top: 31px;
+	}
+
+	.header-place {
+		padding: 0;
+	}
+
+	* + .header-place {
+		margin-top: 24px;
+	}
+
+	* + p {
+		margin-top: 25px;
+	}
+
+	* + .rights {
+		margin-top: 40px;
+
+		@include media-breakpoint-up(xl) {
+			margin-top: 70px;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+/** @section Hero */
+
+.hero-pricing {
+	background-color: rgba($primary, .9);
+	padding: 25px;
+
+	@include media-breakpoint-up(md) {
+		padding: 37px 30px 29px 58px;
+	}
+}
+
+.hero-pricing {
+	margin-top: 20.3%;
+	width: 300px;
+	max-width: 100%;
+	margin-left: auto;
+
+	@include media-breakpoint-up(md) {
+		width: 390px;
+	}
+}
+
+.hero-pricing-title {
+	line-height: 28px;
+}
+
+.hero-pricing-price {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 15px;
+}
+
+.hero-pricing-currency {
+	margin-top: .3em;
+}
+
+.hero-pricing-value {
+	margin-top: 0;
+	margin-left: .15em;
+}

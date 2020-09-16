@@ -1,0 +1,24 @@
+/** @section Context Styles */
+
+%context-dark {
+	&,
+	#{headings()} {
+		color: $white;
+
+		a {
+		color: inherit;
+
+		&:hover {
+			color: $headings-color;
+		}
+	}
+	}
+}
+
+%context-light {
+	color: $body-color;
+
+	#{headings()} {
+		color: $headings-color;
+	}
+}

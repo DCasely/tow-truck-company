@@ -1,0 +1,101 @@
+-
+	var
+		htmlClass = "wide wow-animation",
+		fonts = "//fonts.googleapis.com/css?family=Prompt:400,700,900%7CRoboto:400,700",
+		logo = {
+			default: 'logo-default-204x31.svg',
+			inverse: 'logo-inverse-204x31.svg',
+			name: 'BLD Rental '
+		},
+		links = {
+			post: 'blog-post.html',
+			getTemplate:'#get-template'
+		},
+		colors = {
+			primary: '#FF6B18'
+		},
+		menu = [
+			{
+				title: 'Home',
+				link: 'index.html'
+			},
+			{
+				title: 'About'
+			},
+			{
+			title: 'Blog',
+				dropdown: [
+					{
+						title: 'Blog post',
+						link: links.post
+					}
+				]
+			},
+			{
+				title: 'Pages',
+				link: null,
+				megamenu: [
+					{
+						title: 'Pages 1',
+						list: [
+							{ title: 'Typography' },
+							{ title: 'Buttons' },
+							{ title: 'Forms' },
+							{ title: 'Tabs and accordions' },
+							{ title: 'Progress bars' },
+							{ title: 'Tables' }
+						]
+					},
+					{
+						title: 'Pages 2',
+						link: null,
+						list: [
+							{ title: 'Grid system' },
+							{ title: 'Privacy policy' },
+							{ title: 'Link 1' },
+							{ title: 'Link 1' },
+							{ title: 'Link 1' },
+							{ title: 'Link 1' }
+						]
+					},
+					{
+						title: 'Pages 3',
+						link: null,
+						list: [
+							{ title: 'Under Construction' },
+							{ title: 'Link 1' },
+							{ title: 'Link 2' },
+							{ title: 'Link 3' },
+							{ title: 'Link 4' },
+							{ title: 'Search results' }
+						]
+					},
+					[
+						{
+							title: 'Site Map'
+						},
+						{
+							title: 'Headers',
+							link: '#',
+							list: [
+								{ title: 'Header 1' }
+							]
+						},
+						{
+							title: 'Footers',
+							link: '#',
+							list: [
+								{ title: 'Footer 1' }
+							]
+						}
+					]
+				]
+			},
+			{
+				title: 'Contacts'
+			}
+		],
+
+		// Predefined variables
+		breadcrumbs = [],
+		pageName = 'Home'
