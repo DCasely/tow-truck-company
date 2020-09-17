@@ -67,6 +67,13 @@
 .call-now-buttons:focus {
   color: #fff;
 }
+
+/* FOOTER SECTION */
+#footer-section .link-tel a {
+  color: #fff;
+  font-weight: 400;
+}
+
 /* UI UP ARROW */
 
 @media (min-width: 576px) {
