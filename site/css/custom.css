@@ -1,4 +1,18 @@
+/*  LOGOS */
+
 .brand .brand-logo-dark,
 .brand .brand-logo-light {
   width: 50px;
+}
+
+/* HERO SECTION */
+
+#hero-section {
+  padding: 0;
+}
+
+.hero-container {
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  padding: 2.5%;
 }
