@@ -21,6 +21,17 @@
   padding: 10px 0;
 }
 
+/* OUR ADVANTAGE SECTION */
+#our-advantage-section {
+  padding: 0;
+}
+
+#our-advantage-section .container {
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  padding: 10% 5%;
+}
+
 /* CALL NOW BUTTONS */
 .call-now-buttons {
   background-color: blue;
