@@ -21,6 +21,27 @@
   padding: 10px 0;
 }
 
+/* CALL NOW BUTTONS */
+.call-now-buttons {
+  background-color: blue;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.call-now-buttons:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.call-now-buttons:active {
+  transform: scale(1);
+  color: #fff;
+}
+
+.call-now-buttons:visited,
+.call-now-buttons:focus {
+  color: #fff;
+}
 /* UI UP ARROW */
 
 @media (min-width: 576px) {
