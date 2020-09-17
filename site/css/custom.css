@@ -72,6 +72,38 @@
   color: #fff;
 }
 
+/* PDF DOWNLOAD SECTION */
+
+#pdf-download .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 100px;
+}
+
+.pdf-download-button {
+  background-color: #485962;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 25px;
+}
+
+.pdf-download-button:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.pdf-download-button:active {
+  transform: scale(1);
+  color: #fff;
+}
+
+.pdf-download-button:visited,
+.pdf-download-button:focus {
+  color: #fff;
+}
+
 /* FOOTER SECTION */
 #footer-section .link-tel a {
   color: #fff;
