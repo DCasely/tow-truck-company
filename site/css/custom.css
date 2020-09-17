@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+#hero-section h1 {
+  letter-spacing: 0.5rem;
+}
+
 .hero-container {
   background: rgba(0, 0, 0, 0.5);
   max-width: 100%;
