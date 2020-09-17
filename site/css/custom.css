@@ -20,3 +20,11 @@
 .hero-container .call-now .phone-number {
   padding: 10px 0;
 }
+
+/* UI UP ARROW */
+
+@media (min-width: 576px) {
+  .ui-to-top {
+    left: 40px;
+  }
+}
