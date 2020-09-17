@@ -1,406 +1,726 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
+  <head>
+    <title>Tow Truck Company</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Prompt:400,700,900%7CRoboto:400,700"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .ie-panel {
+        display: none;
+        background: #212121;
+        padding: 10px 0;
+        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+        clear: both;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
 
-<head>
-  <title>Home</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Prompt:400,700,900%7CRoboto:400,700">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    .ie-panel {
-      display: none;
-      background: #212121;
-      padding: 10px 0;
-      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
-      clear: both;
-      text-align: center;
-      position: relative;
-      z-index: 1;
-    }
+      html.ie-10 .ie-panel,
+      html.lt-ie-10 .ie-panel {
+        display: block;
+      }
+    </style>
 
-    html.ie-10 .ie-panel,
-    html.lt-ie-10 .ie-panel {
-      display: block;
-    }
-  </style>
-</head>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
 
-<body>
-  <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
-        src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
-        alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
-  </div>
-  <div class="preloader">
-    <div class="preloader-body">
-      <div class="cssload-container">
-        <div class="cssload-speeding-wheel"></div>
+  <body>
+    <div class="ie-panel">
+      <a href="http://windows.microsoft.com/en-US/internet-explorer/"
+        ><img
+          src="images/ie8-panel/warning_bar_0000_us.jpg"
+          height="42"
+          width="820"
+          alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+      /></a>
+    </div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="page-box">
-    <div class="page">
-      <!-- Header-->
-      <header class="header">
-        <div class="container header-container">
-          <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark"
-              src="images/logo-default-204x31.svg" alt="" width="204" height="31" /><img class="brand-logo-light"
-              src="images/logo-inverse-204x31.svg" alt="" width="204" height="31" /></a>
-          <div class="header-contacts"><a class="link-tel h3" href="tel:#">+1 234 564 67 89</a>
-            <div class="header-place"><a href="#">1837 Matthews Twnsp Pkwy Matthews, NC 28105</a></div>
-          </div>
-        </div>
-      </header>
-
-      <!-- Hero-->
-      <section class="section section-sm bg-image context-dark" style="background-image: url(images/home-bg-01.jpg)">
-        <div class="container hero-container"><img src="images/home-01-92x56.svg" alt="" width="92" height="56" />
-          <h1>966H <br> Wheel Loader</h1>
-          <div class="hero-pricing">
-            <div class="hero-pricing-title h4">Daily rental Fee Starting from</div>
-            <div class="hero-pricing-price"><span class="hero-pricing-currency h4">$</span><span
-                class="hero-pricing-value h1">181</span></div>
-          </div>
-        </div>
-      </section>
-
-      <!-- What we Offer-->
-      <section class="section section-lg bg-default">
-        <div class="container">
-          <div class="section-title">
-            <h2>What we <span class='text-primary'>Offer</span></h2>
-            <h6>If you need to rent equipment for construction, we are ready to provide you with what’s really
-              necessary. <span class='h5'>Caterpillar 966H</span> provides optimal performance and productivity for your
-              construction project. It has the maximum digging depth of 18 feet.</h6>
-          </div>
-          <div class="row row-40 align-items-center">
-            <div class="col-xl-7 col-lg-6"><img src="images/home-02-660x500.jpg" alt="" width="660" height="500" />
-            </div>
-            <div class="col-xl-5 col-lg-6">
-              <h2 class="box-350">New <br> Pro-Grade <span class='text-primary d-block'>Equipment Rentals</span></h2>
-              <h6>As your business grows, so does our rental fleet. We’ve rolled out new pro-quality equipment for
-                large-scale jobs that are now available in select markets. Such equipment can be a true cornerstone of
-                your project.</h6>
-              <div class="unit">
-                <div class="unit-left"><img src="images/home-04-82x82.svg" alt="" width="82" height="82" />
-                </div>
-                <div class="unit-body">
-                  <h4>Caterpillar 966H <br> Wheel Mover</h4>
-                  <p class="text-primary">Powered by CAT® C11 ACERT™</p>
-                </div>
+    <div class="page-box">
+      <div class="page">
+        <!-- Header-->
+        <header class="header">
+          <div class="container header-container">
+            <!--Brand--><a class="brand" href="index.html"
+              ><img
+                class="brand-logo-dark"
+                src="images/logo.png"
+                alt=""
+                width="204"
+                height="31" /><img
+                class="brand-logo-light"
+                src="images/logo-inverse-204x31.svg"
+                alt=""
+                width="204"
+                height="31"
+            /></a>
+            <div class="header-contacts">
+              <a class="link-tel h3" href="tel:#">+1 234 564 67 89</a>
+              <div class="header-place">
+                <a href="#">1837 Matthews Twnsp Pkwy Matthews, NC 28105</a>
               </div>
             </div>
           </div>
-          <div class="row row-40 flex-lg-row-reverse align-items-center">
-            <div class="col-xl-7 col-lg-6 text-lg-right"><img src="images/home-03-660x500.jpg" alt="" width="660"
-                height="500" />
+        </header>
+
+        <!-- Hero-->
+        <section
+          class="section section-sm bg-image context-dark"
+          style="background-image: url(images/home-bg-01.jpg)"
+        >
+          <div class="container hero-container">
+            <img src="images/home-01-92x56.svg" alt="" width="92" height="56" />
+            <h1>
+              966H <br />
+              Wheel Loader
+            </h1>
+            <div class="hero-pricing">
+              <div class="hero-pricing-title h4">
+                Daily rental Fee Starting from
+              </div>
+              <div class="hero-pricing-price">
+                <span class="hero-pricing-currency h4">$</span
+                ><span class="hero-pricing-value h1">181</span>
+              </div>
             </div>
-            <div class="col-xl-5 col-lg-6">
-              <h2 class="box-350">Always available <span class='text-primary d-block'>to help you</span></h2>
-              <h6>In addition to a wide range of pro-grade tools and large equipment rentals, we offer knowledgeable,
-                resourceful and dependable associates who are ready to provide solutions to help finish the job at hand.
+          </div>
+        </section>
+
+        <!-- What we Offer-->
+        <section class="section section-lg bg-default">
+          <div class="container">
+            <div class="section-title">
+              <h2>What we <span class="text-primary">Offer</span></h2>
+              <h6>
+                If you need to rent equipment for construction, we are ready to
+                provide you with what’s really necessary.
+                <span class="h5">Caterpillar 966H</span> provides optimal
+                performance and productivity for your construction project. It
+                has the maximum digging depth of 18 feet.
               </h6>
             </div>
+            <div class="row row-40 align-items-center">
+              <div class="col-xl-7 col-lg-6">
+                <img
+                  src="images/home-02-660x500.jpg"
+                  alt=""
+                  width="660"
+                  height="500"
+                />
+              </div>
+              <div class="col-xl-5 col-lg-6">
+                <h2 class="box-350">
+                  New <br />
+                  Pro-Grade
+                  <span class="text-primary d-block">Equipment Rentals</span>
+                </h2>
+                <h6>
+                  As your business grows, so does our rental fleet. We’ve rolled
+                  out new pro-quality equipment for large-scale jobs that are
+                  now available in select markets. Such equipment can be a true
+                  cornerstone of your project.
+                </h6>
+                <div class="unit">
+                  <div class="unit-left">
+                    <img
+                      src="images/home-04-82x82.svg"
+                      alt=""
+                      width="82"
+                      height="82"
+                    />
+                  </div>
+                  <div class="unit-body">
+                    <h4>
+                      Caterpillar 966H <br />
+                      Wheel Mover
+                    </h4>
+                    <p class="text-primary">Powered by CAT® C11 ACERT™</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-40 flex-lg-row-reverse align-items-center">
+              <div class="col-xl-7 col-lg-6 text-lg-right">
+                <img
+                  src="images/home-03-660x500.jpg"
+                  alt=""
+                  width="660"
+                  height="500"
+                />
+              </div>
+              <div class="col-xl-5 col-lg-6">
+                <h2 class="box-350">
+                  Always available
+                  <span class="text-primary d-block">to help you</span>
+                </h2>
+                <h6>
+                  In addition to a wide range of pro-grade tools and large
+                  equipment rentals, we offer knowledgeable, resourceful and
+                  dependable associates who are ready to provide solutions to
+                  help finish the job at hand.
+                </h6>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Advantages-->
-      <section class="parallax-container section-xl context-dark" data-parallax-img="images/home-bg-02.jpg">
-        <div class="parallax-content">
+        <!-- Advantages-->
+        <section
+          class="parallax-container section-xl context-dark"
+          data-parallax-img="images/home-bg-02.jpg"
+        >
+          <div class="parallax-content">
+            <div class="container">
+              <div class="row row-40">
+                <div class="col-lg-4 col-sm-6">
+                  <h3>productivity</h3>
+                  <ul class="list-marked h6">
+                    <li>
+                      The <span class="h5">C9.3 ACERT™</span> engine meets U.S.
+                      EPA Tier 4 Final, Korea Tier 4 and EU Stage IV emission
+                      standards.
+                    </li>
+                    <li>
+                      Greased track link between pins and bushings increases
+                      undercarriage life and reduces noise.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <h3>durability</h3>
+                  <ul class="list-marked h6">
+                    <li>
+                      Box-section structures with multi-plate fabrications,
+                      castings, and forgings are used in high-stress areas.
+                    </li>
+                    <li>
+                      Bushings increases undercarriage life and reduces noise
+                      greased track link between pins.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                  <h3>comfort</h3>
+                  <ul class="list-marked h6">
+                    <li>
+                      The full-size roll-over protective structure (ROPS)
+                      certified cab is quiet and comfortable.
+                    </li>
+                    <li>
+                      The <span class="h5">LCD monitor</span> is easy to
+                      navigate and programmable in 44 languages.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- CTA-->
+        <section class="section section-lg section-lg-2 bg-primary">
           <div class="container">
+            <div class="row row-20 justify-content-center">
+              <div class="col-xl-4 col-lg-5 col-sm-6">
+                <h3>Contact us</h3>
+                <div class="h2"><a href="tel:#">+1 234 564 67 89</a></div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
+                <div class="pl-xl-3">
+                  <h6>Monday - Friday: <span class="h5">8am - 6pm</span></h6>
+                  <h6>Saturday: <span class="h5">8am - 4pm</span></h6>
+                  <h6>Sunday: <span class="h5">closed</span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pricing-->
+        <section class="section section-lg bg-default">
+          <div class="container">
+            <div class="text-center">
+              <h2>
+                Rental Pricing for
+                <span class="text-primary d-block">caterpillar 966H</span>
+              </h2>
+              <h6>Learn more about the prices on our equipment below.</h6>
+            </div>
             <div class="row row-40">
-              <div class="col-lg-4 col-sm-6">
-                <h3>productivity</h3>
-                <ul class="list-marked h6">
-                  <li>The <span class='h5'>C9.3 ACERT™</span> engine meets U.S. EPA Tier 4 Final, Korea Tier 4 and EU
-                    Stage IV emission standards.</li>
-                  <li>Greased track link between pins and bushings increases undercarriage life and reduces noise.</li>
-                </ul>
+              <div class="col-lg-3 col-sm-6">
+                <article class="pricing">
+                  <h4 class="pricing-title">4-Hour Rental</h4>
+                  <div class="pricing-price">
+                    <span class="pricing-currency h4">$</span
+                    ><span class="pricing-value h1">109</span
+                    ><span class="pricing-postfix h4">*</span>
+                  </div>
+                  <p>
+                    <span class="text-primary">*</span> Equipment rental rates
+                    are obtained from the following industry sources throughout
+                    North America.
+                  </p>
+                </article>
               </div>
-              <div class="col-lg-4 col-sm-6">
-                <h3>durability</h3>
-                <ul class="list-marked h6">
-                  <li>Box-section structures with multi-plate fabrications, castings, and forgings are used in
-                    high-stress areas.</li>
-                  <li>Bushings increases undercarriage life and reduces noise greased track link between pins.</li>
-                </ul>
+              <div class="col-lg-3 col-sm-6">
+                <article class="pricing">
+                  <h4 class="pricing-title">Daily Rental</h4>
+                  <div class="pricing-price">
+                    <span class="pricing-currency h4">$</span
+                    ><span class="pricing-value h1">181</span
+                    ><span class="pricing-postfix h4">*</span>
+                  </div>
+                  <p>
+                    <span class="text-primary">*</span> In case of construction
+                    equipment or tools damage, the repair cost will be added to
+                    this amount.
+                  </p>
+                </article>
               </div>
-              <div class="col-lg-4 col-sm-6">
-                <h3>comfort</h3>
-                <ul class="list-marked h6">
-                  <li>The full-size roll-over protective structure (ROPS) certified cab is quiet and comfortable.</li>
-                  <li>The <span class='h5'>LCD monitor</span> is easy to navigate and programmable in 44 languages.</li>
-                </ul>
+              <div class="col-lg-3 col-sm-6">
+                <article class="pricing">
+                  <h4 class="pricing-title">Weekly Rental</h4>
+                  <div class="pricing-price">
+                    <span class="pricing-currency h4">$</span
+                    ><span class="pricing-value h1">790</span
+                    ><span class="pricing-postfix h4">*</span>
+                  </div>
+                  <p>
+                    <span class="text-primary">*</span> The operating costs
+                    include parts and labor for routine servicing, such as
+                    repair and replacement of pumps.
+                  </p>
+                </article>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <article class="pricing">
+                  <h4 class="pricing-title">Monthly Rental</h4>
+                  <div class="pricing-price">
+                    <span class="pricing-currency h4">$</span
+                    ><span class="pricing-value h1">1,940</span
+                    ><span class="pricing-postfix h4">*</span>
+                  </div>
+                  <p>
+                    <span class="text-primary">*</span> The monthly operating
+                    costs listed do not include the operator’s wages as well as
+                    any additional services.
+                  </p>
+                </article>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- CTA-->
-      <section class="section section-lg section-lg-2 bg-primary">
-        <div class="container">
-          <div class="row row-20 justify-content-center">
-            <div class="col-xl-4 col-lg-5 col-sm-6">
-              <h3>Contact us</h3>
-              <div class="h2"><a href="tel:#">+1 234 564 67 89</a></div>
+        <!-- Gallery-->
+        <div class="section" data-lightgallery="group">
+          <div class="row no-gutters">
+            <div class="col-sm-6">
+              <a
+                class="thumb"
+                href="images/gallery-01-original.jpg"
+                data-lightgallery="item"
+              >
+                <figure class="thumb-figure">
+                  <img
+                    src="images/gallery-01-700x500.jpg"
+                    alt=""
+                    width="700"
+                    height="500"
+                  />
+                </figure>
+                <div class="thumb-overlay">
+                  <div class="icon mdi mdi-magnify-plus"></div>
+                </div>
+              </a>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6">
-              <div class="pl-xl-3">
-                <h6>Monday - Friday: <span class='h5'>8am - 6pm</span></h6>
-                <h6>Saturday: <span class='h5'>8am - 4pm</span></h6>
-                <h6>Sunday: <span class='h5'>closed</span></h6>
-              </div>
+            <div class="col-sm-6">
+              <a
+                class="thumb"
+                href="images/gallery-02-original.jpg"
+                data-lightgallery="item"
+              >
+                <figure class="thumb-figure">
+                  <img
+                    src="images/gallery-02-700x500.jpg"
+                    alt=""
+                    width="700"
+                    height="500"
+                  />
+                </figure>
+                <div class="thumb-overlay">
+                  <div class="icon mdi mdi-magnify-plus"></div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a
+                class="thumb"
+                href="images/gallery-03-original.jpg"
+                data-lightgallery="item"
+              >
+                <figure class="thumb-figure">
+                  <img
+                    src="images/gallery-03-700x500.jpg"
+                    alt=""
+                    width="700"
+                    height="500"
+                  />
+                </figure>
+                <div class="thumb-overlay">
+                  <div class="icon mdi mdi-magnify-plus"></div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a
+                class="thumb"
+                href="images/gallery-04-original.jpg"
+                data-lightgallery="item"
+              >
+                <figure class="thumb-figure">
+                  <img
+                    src="images/gallery-04-700x500.jpg"
+                    alt=""
+                    width="700"
+                    height="500"
+                  />
+                </figure>
+                <div class="thumb-overlay">
+                  <div class="icon mdi mdi-magnify-plus"></div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </section>
 
-      <!-- Pricing-->
-      <section class="section section-lg bg-default">
-        <div class="container">
-          <div class="text-center">
-            <h2>Rental Pricing for <span class='text-primary d-block'>caterpillar 966H</span></h2>
-            <h6>Learn more about the prices on our equipment below.</h6>
+        <!-- FAQ-->
+        <section class="section section-xl bg-default">
+          <div class="container">
+            <h2 class="text-center">
+              frequently
+              <span class="text-primary d-block">asked questions</span>
+            </h2>
+            <div
+              class="row row-40 card-group-custom card-group-corporate"
+              id="accordion1"
+              role="tablist"
+              aria-multiselectable="false"
+            >
+              <div class="col-lg-6">
+                <!--Bootstrap card-->
+                <article class="card">
+                  <div class="card-header" role="tab">
+                    <h5 class="card-title">
+                      <a
+                        id="accordion1-card-head-kjtgtgle"
+                        data-toggle="collapse"
+                        data-parent="#accordion1"
+                        href="#accordion1-card-body-sohhitvm"
+                        aria-controls="accordion1-card-body-sohhitvm"
+                        aria-expanded="true"
+                        role="button"
+                        ><span
+                          >What do I receive when I order a template?</span
+                        ></a
+                      >
+                    </h5>
+                  </div>
+                  <div
+                    class="collapse show"
+                    id="accordion1-card-body-sohhitvm"
+                    aria-labelledby="accordion1-card-head-kjtgtgle"
+                    data-parent="#accordion1"
+                    role="tabpanel"
+                  >
+                    <div class="card-body h6">
+                      <p>
+                        After you complete the payment via our secure form you
+                        will receive the instructions for downloading the
+                        product. The source files in the download package can
+                        vary based on the type of the product you have
+                        purchased..col-md-6
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <!--Bootstrap card-->
+                <article class="card">
+                  <div class="card-header" role="tab">
+                    <h5 class="card-title">
+                      <a
+                        class="collapsed"
+                        id="accordion1-card-head-cfduesqt"
+                        data-toggle="collapse"
+                        data-parent="#accordion1"
+                        href="#accordion1-card-body-ynlvyvcu"
+                        aria-controls="accordion1-card-body-ynlvyvcu"
+                        aria-expanded="false"
+                        role="button"
+                        ><span
+                          >What are the advantages of purchasing a
+                          template?</span
+                        ></a
+                      >
+                    </h5>
+                  </div>
+                  <div
+                    class="collapse"
+                    id="accordion1-card-body-ynlvyvcu"
+                    aria-labelledby="accordion1-card-head-cfduesqt"
+                    data-parent="#accordion1"
+                    role="tabpanel"
+                  >
+                    <div class="card-body h6">
+                      <p>
+                        The major advantage is price: You get a high quality
+                        design for just $20-$70. You don’t have to hire a web
+                        designer or web design studio. Second advantage is time
+                        frame.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <!--Bootstrap card-->
+                <article class="card">
+                  <div class="card-header" role="tab">
+                    <h5 class="card-title">
+                      <a
+                        class="collapsed"
+                        id="accordion1-card-head-rmqtoiip"
+                        data-toggle="collapse"
+                        data-parent="#accordion1"
+                        href="#accordion1-card-body-dchajbgq"
+                        aria-controls="accordion1-card-body-dchajbgq"
+                        aria-expanded="false"
+                        role="button"
+                        ><span>What is a unique/non-unique purchase?</span></a
+                      >
+                    </h5>
+                  </div>
+                  <div
+                    class="collapse"
+                    id="accordion1-card-body-dchajbgq"
+                    aria-labelledby="accordion1-card-head-rmqtoiip"
+                    data-parent="#accordion1"
+                    role="tabpanel"
+                  >
+                    <div class="card-body h6">
+                      <p>
+                        Non-exclusive purchase means that other people can buy
+                        the template you have chosen some time later. Exclusive
+                        or unique purchase guarantees that you are the last
+                        person to buy this template as well as:
+                      </p>
+                      <ul class="list-marked">
+                        <li>The template gets removed from our catalog;</li>
+                        <li>It won’t be available to new customers;</li>
+                        <li>
+                          It will be available to you and previous clients.
+                        </li>
+                      </ul>
+                      <p>
+                        These types of purchases allow you to decide what you
+                        want for your website. No matter your decision, our
+                        templates will provide great design for you.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-6">
+                <!--Bootstrap card-->
+                <article class="card">
+                  <div class="card-header" role="tab">
+                    <h5 class="card-title">
+                      <a
+                        class="collapsed"
+                        id="accordion1-card-head-ltjlqiic"
+                        data-toggle="collapse"
+                        data-parent="#accordion1"
+                        href="#accordion1-card-body-dkdctakv"
+                        aria-controls="accordion1-card-body-dkdctakv"
+                        aria-expanded="false"
+                        role="button"
+                        ><span
+                          >In what formats are your templates available?</span
+                        ></a
+                      >
+                    </h5>
+                  </div>
+                  <div
+                    class="collapse"
+                    id="accordion1-card-body-dkdctakv"
+                    aria-labelledby="accordion1-card-head-ltjlqiic"
+                    data-parent="#accordion1"
+                    role="tabpanel"
+                  >
+                    <div class="card-body h6">
+                      <p>
+                        Website templates are available in Photoshop and HTML
+                        formats. Fonts are included with the Photoshop file. In
+                        most templates, HTML is compatible with Adobe®
+                        Dreamweaver® and Microsoft® FrontPage®.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <!--Bootstrap card-->
+                <article class="card">
+                  <div class="card-header" role="tab">
+                    <h5 class="card-title">
+                      <a
+                        class="collapsed"
+                        id="accordion1-card-head-jagiffko"
+                        data-toggle="collapse"
+                        data-parent="#accordion1"
+                        href="#accordion1-card-body-uppdhcjn"
+                        aria-controls="accordion1-card-body-uppdhcjn"
+                        aria-expanded="false"
+                        role="button"
+                        ><span
+                          >What am I allowed to do with the templates?</span
+                        ></a
+                      >
+                    </h5>
+                  </div>
+                  <div
+                    class="collapse"
+                    id="accordion1-card-body-uppdhcjn"
+                    aria-labelledby="accordion1-card-head-jagiffko"
+                    data-parent="#accordion1"
+                    role="tabpanel"
+                  >
+                    <div class="card-body h6">
+                      <p>
+                        You may build a website using the template in any way
+                        you like. You may not resell or redistribute templates
+                        (like we do); claim intellectual or exclusive ownership
+                        to any of our products, modified or unmodified. All
+                        products are property of content providing companies and
+                        individuals. You are also not allowed to make more than
+                        one project using the same template (you have to
+                        purchase the same template once more in order to make
+                        another project with the same design).
+                      </p>
+                    </div>
+                  </div>
+                </article>
+                <!--Bootstrap card-->
+                <article class="card">
+                  <div class="card-header" role="tab">
+                    <h5 class="card-title">
+                      <a
+                        class="collapsed"
+                        id="accordion1-card-head-kamcrkqn"
+                        data-toggle="collapse"
+                        data-parent="#accordion1"
+                        href="#accordion1-card-body-knahxwdd"
+                        aria-controls="accordion1-card-body-knahxwdd"
+                        aria-expanded="false"
+                        role="button"
+                        ><span
+                          >Do you provide any scripts with your templates?</span
+                        ></a
+                      >
+                    </h5>
+                  </div>
+                  <div
+                    class="collapse"
+                    id="accordion1-card-body-knahxwdd"
+                    aria-labelledby="accordion1-card-head-kamcrkqn"
+                    data-parent="#accordion1"
+                    role="tabpanel"
+                  >
+                    <div class="card-body h6">
+                      <p>
+                        Our templates do not include any additional scripts.
+                        Newsletter subscriptions, search fields, forums, image
+                        galleries (in HTML versions of Flash products) are
+                        inactive. Basic scripts can be easily added at
+                        www.zemez.io If you are not sure that the element you’re
+                        interested in is active please contact our Support Chat
+                        for clarification.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
-          <div class="row row-40">
-            <div class="col-lg-3 col-sm-6">
-              <article class="pricing">
-                <h4 class="pricing-title">4-Hour Rental</h4>
-                <div class="pricing-price"><span class="pricing-currency h4">$</span><span
-                    class="pricing-value h1">109</span><span class="pricing-postfix h4">*</span></div>
-                <p><span class='text-primary'>*</span> Equipment rental rates are obtained from the following industry
-                  sources throughout North America.</p>
-              </article>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <article class="pricing">
-                <h4 class="pricing-title">Daily Rental</h4>
-                <div class="pricing-price"><span class="pricing-currency h4">$</span><span
-                    class="pricing-value h1">181</span><span class="pricing-postfix h4">*</span></div>
-                <p><span class='text-primary'>*</span> In case of construction equipment or tools damage, the repair
-                  cost will be added to this amount.</p>
-              </article>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <article class="pricing">
-                <h4 class="pricing-title">Weekly Rental</h4>
-                <div class="pricing-price"><span class="pricing-currency h4">$</span><span
-                    class="pricing-value h1">790</span><span class="pricing-postfix h4">*</span></div>
-                <p><span class='text-primary'>*</span> The operating costs include parts and labor for routine
-                  servicing, such as repair and replacement of pumps.</p>
-              </article>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-              <article class="pricing">
-                <h4 class="pricing-title">Monthly Rental</h4>
-                <div class="pricing-price"><span class="pricing-currency h4">$</span><span
-                    class="pricing-value h1">1,940</span><span class="pricing-postfix h4">*</span></div>
-                <p><span class='text-primary'>*</span> The monthly operating costs listed do not include the operator’s
-                  wages as well as any additional services.</p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Gallery-->
-      <div class="section" data-lightgallery="group">
-        <div class="row no-gutters">
-          <div class="col-sm-6"><a class="thumb" href="images/gallery-01-original.jpg" data-lightgallery="item">
-              <figure class="thumb-figure"><img src="images/gallery-01-700x500.jpg" alt="" width="700" height="500" />
-              </figure>
-              <div class="thumb-overlay">
-                <div class="icon mdi mdi-magnify-plus"></div>
+        <!-- Footer-->
+        <footer class="footer bg-gray-700">
+          <div class="container">
+            <div
+              class="row row-40 justify-content-sm-between flex-md-row-reverse"
+            >
+              <div class="col-xl-5 col-md-6">
+                <h4>Rent Now</h4>
+                <div class="h2 link-tel">
+                  <a href="tel:#">+1 800 564 67 89</a>
+                </div>
+                <h6>Monday - Friday: <span class="h5">8am - 6pm</span></h6>
+                <h6>Saturday: <span class="h5">8am - 4pm</span></h6>
+                <h6>Sunday: <span class="h5">closed</span></h6>
+                <div class="header-place">
+                  <a href="#">1837 Matthews Twnsp Pkwy Matthews, NC 28105</a>
+                </div>
               </div>
-            </a></div>
-          <div class="col-sm-6"><a class="thumb" href="images/gallery-02-original.jpg" data-lightgallery="item">
-              <figure class="thumb-figure"><img src="images/gallery-02-700x500.jpg" alt="" width="700" height="500" />
-              </figure>
-              <div class="thumb-overlay">
-                <div class="icon mdi mdi-magnify-plus"></div>
+              <div class="col-xl-5 col-md-6">
+                <!--Brand--><a class="brand" href="index.html"
+                  ><img
+                    class="brand-logo-dark"
+                    src="images/logo.png"
+                    alt=""
+                    width="204"
+                    height="31" /><img
+                    class="brand-logo-light"
+                    src="images/logo-inverse-204x31.svg"
+                    alt=""
+                    width="204"
+                    height="31"
+                /></a>
+                <p>
+                  BLDRental is a leading provider of construction tools,
+                  equipment, and machinery rental services. We stand as a hyphen
+                  between the buyers and sellers of heavy equipment, allowing
+                  them to interact, discuss, negotiate and close transactions in
+                  a timely & professional manner.
+                </p>
+                <p class="rights">
+                  <span>&copy;&nbsp;</span><span class="copyright-year"></span
+                  ><span>&nbsp;</span><span>BLD Rental </span>
+                </p>
               </div>
-            </a></div>
-          <div class="col-sm-6"><a class="thumb" href="images/gallery-03-original.jpg" data-lightgallery="item">
-              <figure class="thumb-figure"><img src="images/gallery-03-700x500.jpg" alt="" width="700" height="500" />
-              </figure>
-              <div class="thumb-overlay">
-                <div class="icon mdi mdi-magnify-plus"></div>
-              </div>
-            </a></div>
-          <div class="col-sm-6"><a class="thumb" href="images/gallery-04-original.jpg" data-lightgallery="item">
-              <figure class="thumb-figure"><img src="images/gallery-04-700x500.jpg" alt="" width="700" height="500" />
-              </figure>
-              <div class="thumb-overlay">
-                <div class="icon mdi mdi-magnify-plus"></div>
-              </div>
-            </a></div>
-        </div>
+            </div>
+          </div>
+        </footer>
       </div>
-
-      <!-- FAQ-->
-      <section class="section section-xl bg-default">
-        <div class="container">
-          <h2 class="text-center">frequently <span class='text-primary d-block'>asked questions</span></h2>
-          <div class="row row-40 card-group-custom card-group-corporate" id="accordion1" role="tablist"
-            aria-multiselectable="false">
-            <div class="col-lg-6">
-              <!--Bootstrap card-->
-              <article class="card">
-                <div class="card-header" role="tab">
-                  <h5 class="card-title"><a id="accordion1-card-head-kjtgtgle" data-toggle="collapse"
-                      data-parent="#accordion1" href="#accordion1-card-body-sohhitvm"
-                      aria-controls="accordion1-card-body-sohhitvm" aria-expanded="true" role="button"><span>What do I
-                        receive when I order a template?</span></a></h5>
-                </div>
-                <div class="collapse show" id="accordion1-card-body-sohhitvm"
-                  aria-labelledby="accordion1-card-head-kjtgtgle" data-parent="#accordion1" role="tabpanel">
-                  <div class="card-body h6">
-                    <p>After you complete the payment via our secure form you will receive the instructions for
-                      downloading the product. The source files in the download package can vary based on the type of
-                      the product you have purchased..col-md-6</p>
-                  </div>
-                </div>
-              </article>
-              <!--Bootstrap card-->
-              <article class="card">
-                <div class="card-header" role="tab">
-                  <h5 class="card-title"><a class="collapsed" id="accordion1-card-head-cfduesqt" data-toggle="collapse"
-                      data-parent="#accordion1" href="#accordion1-card-body-ynlvyvcu"
-                      aria-controls="accordion1-card-body-ynlvyvcu" aria-expanded="false" role="button"><span>What are
-                        the advantages of purchasing a template?</span></a></h5>
-                </div>
-                <div class="collapse" id="accordion1-card-body-ynlvyvcu" aria-labelledby="accordion1-card-head-cfduesqt"
-                  data-parent="#accordion1" role="tabpanel">
-                  <div class="card-body h6">
-                    <p>The major advantage is price: You get a high quality design for just $20-$70. You don’t have to
-                      hire a web designer or web design studio. Second advantage is time frame.</p>
-                  </div>
-                </div>
-              </article>
-              <!--Bootstrap card-->
-              <article class="card">
-                <div class="card-header" role="tab">
-                  <h5 class="card-title"><a class="collapsed" id="accordion1-card-head-rmqtoiip" data-toggle="collapse"
-                      data-parent="#accordion1" href="#accordion1-card-body-dchajbgq"
-                      aria-controls="accordion1-card-body-dchajbgq" aria-expanded="false" role="button"><span>What is a
-                        unique/non-unique purchase?</span></a></h5>
-                </div>
-                <div class="collapse" id="accordion1-card-body-dchajbgq" aria-labelledby="accordion1-card-head-rmqtoiip"
-                  data-parent="#accordion1" role="tabpanel">
-                  <div class="card-body h6">
-                    <p>Non-exclusive purchase means that other people can buy the template you have chosen some time
-                      later. Exclusive or unique purchase guarantees that you are the last person to buy this template
-                      as well as:</p>
-                    <ul class="list-marked">
-                      <li>The template gets removed from our catalog;</li>
-                      <li>It won’t be available to new customers;</li>
-                      <li>It will be available to you and previous clients.</li>
-                    </ul>
-                    <p>These types of purchases allow you to decide what you want for your website. No matter your
-                      decision, our templates will provide great design for you.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-lg-6">
-              <!--Bootstrap card-->
-              <article class="card">
-                <div class="card-header" role="tab">
-                  <h5 class="card-title"><a class="collapsed" id="accordion1-card-head-ltjlqiic" data-toggle="collapse"
-                      data-parent="#accordion1" href="#accordion1-card-body-dkdctakv"
-                      aria-controls="accordion1-card-body-dkdctakv" aria-expanded="false" role="button"><span>In what
-                        formats are your templates available?</span></a></h5>
-                </div>
-                <div class="collapse" id="accordion1-card-body-dkdctakv" aria-labelledby="accordion1-card-head-ltjlqiic"
-                  data-parent="#accordion1" role="tabpanel">
-                  <div class="card-body h6">
-                    <p>Website templates are available in Photoshop and HTML formats. Fonts are included with the
-                      Photoshop file. In most templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft®
-                      FrontPage®.</p>
-                  </div>
-                </div>
-              </article>
-              <!--Bootstrap card-->
-              <article class="card">
-                <div class="card-header" role="tab">
-                  <h5 class="card-title"><a class="collapsed" id="accordion1-card-head-jagiffko" data-toggle="collapse"
-                      data-parent="#accordion1" href="#accordion1-card-body-uppdhcjn"
-                      aria-controls="accordion1-card-body-uppdhcjn" aria-expanded="false" role="button"><span>What am I
-                        allowed to do with the templates?</span></a></h5>
-                </div>
-                <div class="collapse" id="accordion1-card-body-uppdhcjn" aria-labelledby="accordion1-card-head-jagiffko"
-                  data-parent="#accordion1" role="tabpanel">
-                  <div class="card-body h6">
-                    <p>You may build a website using the template in any way you like. You may not resell or
-                      redistribute templates (like we do); claim intellectual or exclusive ownership to any of our
-                      products, modified or unmodified. All products are property of content providing companies and
-                      individuals. You are also not allowed to make more than one project using the same template (you
-                      have to purchase the same template once more in order to make another project with the same
-                      design).</p>
-                  </div>
-                </div>
-              </article>
-              <!--Bootstrap card-->
-              <article class="card">
-                <div class="card-header" role="tab">
-                  <h5 class="card-title"><a class="collapsed" id="accordion1-card-head-kamcrkqn" data-toggle="collapse"
-                      data-parent="#accordion1" href="#accordion1-card-body-knahxwdd"
-                      aria-controls="accordion1-card-body-knahxwdd" aria-expanded="false" role="button"><span>Do you
-                        provide any scripts with your templates?</span></a></h5>
-                </div>
-                <div class="collapse" id="accordion1-card-body-knahxwdd" aria-labelledby="accordion1-card-head-kamcrkqn"
-                  data-parent="#accordion1" role="tabpanel">
-                  <div class="card-body h6">
-                    <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields,
-                      forums, image galleries (in HTML versions of Flash products) are inactive. Basic scripts can be
-                      easily added at www.zemez.io If you are not sure that the element you’re interested in is active
-                      please contact our Support Chat for clarification.</p>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Footer-->
-      <footer class="footer bg-gray-700">
-        <div class="container">
-          <div class="row row-40 justify-content-sm-between flex-md-row-reverse">
-            <div class="col-xl-5 col-md-6">
-              <h4>Rent Now</h4>
-              <div class="h2 link-tel"><a href="tel:#">+1 800 564 67 89</a></div>
-              <h6>Monday - Friday: <span class='h5'>8am - 6pm</span></h6>
-              <h6>Saturday: <span class='h5'>8am - 4pm</span></h6>
-              <h6>Sunday: <span class='h5'>closed</span></h6>
-              <div class="header-place"><a href="#">1837 Matthews Twnsp Pkwy Matthews, NC 28105</a></div>
-            </div>
-            <div class="col-xl-5 col-md-6">
-              <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark"
-                  src="images/logo-default-204x31.svg" alt="" width="204" height="31" /><img class="brand-logo-light"
-                  src="images/logo-inverse-204x31.svg" alt="" width="204" height="31" /></a>
-              <p>BLDRental is a leading provider of construction tools, equipment, and machinery rental services. We
-                stand as a hyphen between the buyers and sellers of heavy equipment, allowing them to interact, discuss,
-                negotiate and close transactions in a timely & professional manner.</p>
-              <p class="rights"><span>&copy;&nbsp;</span><span
-                  class="copyright-year"></span><span>&nbsp;</span><span>BLD Rental </span></p>
-            </div>
-          </div>
-        </div>
-      </footer>
-
     </div>
-  </div>
-  <div class="snackbars" id="form-output-global"></div>
-  <script src="js/core.min.js"></script>
-  <script src="js/script.js"></script>
-  <!-- coded by kraken-->
-</body>
-
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- coded by kraken-->
+  </body>
 </html>
