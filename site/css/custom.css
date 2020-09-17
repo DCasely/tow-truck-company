@@ -1,3 +1,4 @@
-.brand .brand-logo-dark {
+.brand .brand-logo-dark,
+.brand .brand-logo-light {
   width: 50px;
 }
