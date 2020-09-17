@@ -16,3 +16,7 @@
   max-width: 100%;
   padding: 2.5%;
 }
+
+.hero-container .call-now .phone-number {
+  padding: 10px 0;
+}
