@@ -110,6 +110,10 @@
   font-weight: 400;
 }
 
+#footer-section .rights a:hover {
+  color: #fff;
+}
+
 /* UI UP ARROW */
 
 @media (min-width: 576px) {
