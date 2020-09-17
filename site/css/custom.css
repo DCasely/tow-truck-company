@@ -37,6 +37,11 @@
   color: #fff;
 }
 
+/* GALLERY SECTION */
+.thumb-overlay {
+  background-color: rgba(0, 0, 255, 0.75);
+}
+
 #contact-us-section a:active {
   color: #fff;
 }
