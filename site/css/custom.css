@@ -32,6 +32,15 @@
   padding: 10% 5%;
 }
 
+/* OUR ADVANTAGE SECTION */
+#contact-us-section a:hover {
+  color: #fff;
+}
+
+#contact-us-section a:active {
+  color: #fff;
+}
+
 /* CALL NOW BUTTONS */
 .call-now-buttons {
   background-color: blue;
