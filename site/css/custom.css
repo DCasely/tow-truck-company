@@ -116,8 +116,6 @@
 
 /* UI UP ARROW */
 
-@media (min-width: 576px) {
-  .ui-to-top {
-    left: 40px;
-  }
+.ui-to-top {
+  left: 40px;
 }
