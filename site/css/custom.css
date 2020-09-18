@@ -5,6 +5,16 @@
   width: 50px;
 }
 
+/* HEADER SECTION */
+
+.header {
+  padding: 15px 0;
+}
+
+.header-container {
+  justify-content: center;
+}
+
 /* HERO SECTION */
 
 #hero-section {
