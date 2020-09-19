@@ -39,6 +39,13 @@
   font-size: 18px;
 }
 
+#hero-section p {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
 #hero-section .hero-container {
   background: rgba(0, 0, 255, 0.5);
   max-width: 100%;
