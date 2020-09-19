@@ -152,9 +152,15 @@
 }
 
 /* FOOTER SECTION */
+
+#footer-section {
+  padding: 50px 0;
+}
+
 #footer-section .link-tel a {
+  font-size: 18px;
+  font-weight: 700;
   color: #fff;
-  font-weight: 400;
 }
 
 #footer-section .rights a:hover {
