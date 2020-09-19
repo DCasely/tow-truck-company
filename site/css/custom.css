@@ -21,6 +21,10 @@
   justify-content: center;
 }
 
+.header .btn {
+  padding: 11px 25px;
+}
+
 /* HERO SECTION */
 
 #hero-section {
@@ -46,6 +50,10 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+
+#hero-section .btn {
+  padding: 11px 25px;
 }
 
 #hero-section a {
