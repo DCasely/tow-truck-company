@@ -52,6 +52,10 @@
   text-align: center;
 }
 
+#hero-section .headlines {
+  max-width: 450px;
+}
+
 #hero-section .btn {
   padding: 11px 25px;
 }
